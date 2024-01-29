@@ -69,32 +69,38 @@ Create an account on https://www.themoviedb.org/, click on the API link from the
 6. Open your terminal/command prompt from your project directory and run the file web_app.py by executing the command streamlit run web_app.py.
 7. And Hurray! That's it. Your Recommendation Engine is ready!
 
-# Deployment method - Render
-<!-- Deploying using Heroku Git from Heroku CLI https://devcenter.heroku.com/articles/heroku-command-line
+# Deployment Steps:
 
-Step-1 Download and install the Heroku CLI.
+1. **Sign Up for Render:**
+   - Create an account on [Render](https://render.com/).
 
-Step-2 If you haven't already, log in to your Heroku account and follow the prompts to create a new SSH public key.
+2. **Create a New Web Service:**
+   - Go to your Render dashboard and click "Create New" > "Web Service".
 
-$ heroku login
+3. **Configure Your Web Service:**
+   - **Name:** Choose a name.
+   - **Environment:** Select Python.
+   - **Build Command:** `pip install -r requirements.txt`
+   - **Start Command:** `streamlit run app.py`
+   - **Public:** Toggle on.
 
-Step-3 Clone the repository
+4. **Add Your Code:**
+   - Upload `app.py` and `requirements.txt` to Render.
 
-Use Git to clone APP NAME source code to your local machine.
+5. **Deploy Your Web Service:**
+   - Click "Create Web Service".
 
-$ heroku git:clone -a APP NAME
+6. **Monitor Deployment:**
+   - Watch progress in your dashboard.
 
-$ cd APP NAME
+7. **Test Your Application:**
+   - Access the provided URL to test your Movie Recommendation System.
 
-Step-4 Deploy your changes
+8. **Optional: Custom Domain:**
+   - Set up a custom domain in the Render dashboard.
 
-Make some changes to the code you just cloned and deploy them to Heroku using Git.
-
-$ git add .
-
-$ git commit -am "make it better"
-
-$ git push heroku master -->
+9. **Optional: Continuous Deployment:**
+   - Enable continuous deployment for automatic updates.
 
 # Features -
 1. It saves time of user by just taking movie name as input and recommends five most similar movies to the user.
