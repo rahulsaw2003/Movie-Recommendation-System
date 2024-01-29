@@ -8,7 +8,7 @@ from streamlit_lottie import st_lottie
 
 
 # setting webpage name
-st.set_page_config(page_title = "Rahul's Webpage", page_icon = ":confetti_ball:", layout = "wide")
+st.set_page_config(page_title = "Rahul's Website", page_icon = ":confetti_ball:", layout = "wide")
 
 
 
@@ -94,7 +94,7 @@ st_lottie(lottie_coding, height = 300, key = "movie")
 
 
 # taking input from the user i.e., movie's name
-selected_movie_name = st.selectbox('search a movie name...', movies['title'].values)
+selected_movie_name = st.selectbox('Search a movie name...', movies['title'].values)
 
 
 

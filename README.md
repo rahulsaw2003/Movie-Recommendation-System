@@ -7,9 +7,9 @@ This type of recommendation engine works on the concept that if a user liked a p
 
 Check out the final project here : https://deepali-movies-recommender.herokuapp.com/ 
 
-Check out the project demo here : https://drive.google.com/file/d/17IthFW4oZfsuPSB8KX-xShwDkBNYy3U1/view
+<!-- Check out the project demo here : https://drive.google.com/file/d/17IthFW4oZfsuPSB8KX-xShwDkBNYy3U1/view -->
 
-Checkout the project presentation here : https://docs.google.com/presentation/d/17JJha8JsaQvxBZ_UW_l1qz0dyvMGUVwm/edit?usp=sharing&ouid=115205668794026881524&rtpof=true&sd=true
+Checkout the project presentation here : https://docs.google.com/presentation/d/1hVO-9NQh62d7M0mWy-INat8bSD_X6SQxlKJmMulWV5Y/edit?usp=sharing
 
 For this initially the datasets were selected from https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata
 
@@ -69,8 +69,8 @@ Create an account on https://www.themoviedb.org/, click on the API link from the
 6. Open your terminal/command prompt from your project directory and run the file web_app.py by executing the command streamlit run web_app.py.
 7. And Hurray! That's it. Your Recommendation Engine is ready!
 
-# Deployment method -
-Deploying using Heroku Git from Heroku CLI https://devcenter.heroku.com/articles/heroku-command-line
+# Deployment method - Render
+<!-- Deploying using Heroku Git from Heroku CLI https://devcenter.heroku.com/articles/heroku-command-line
 
 Step-1 Download and install the Heroku CLI.
 
@@ -94,7 +94,7 @@ $ git add .
 
 $ git commit -am "make it better"
 
-$ git push heroku master
+$ git push heroku master -->
 
 # Features -
 1. It saves time of user by just taking movie name as input and recommends five most similar movies to the user.
