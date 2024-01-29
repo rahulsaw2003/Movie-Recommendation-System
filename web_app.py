@@ -89,7 +89,7 @@ similarity = pickle.load(open('similarity.pkl', 'rb'))
 
 
 # heading for website
-st.title('CONTENT BASED MOVIE RECOMMENDER SYSTEM')
+st.title('CONTENT BASED MOVIE RECOMMENDATION SYSTEM')
 st_lottie(lottie_coding, height = 300, key = "movie")
 
 
@@ -127,8 +127,8 @@ if st.button('Recommend'):
 
 
 
-st.sidebar.title("WELCOME :tada:")
-st.sidebar.title("RECOMMENDER SYSTEM")
+st.sidebar.title("Hey There! :tada:")
+st.sidebar.title("Welcome to my website..")
 rad = st.sidebar.radio("Table of Content", ["Introduction", "Type", "Movie Recommender System", "Help?", "About Us", "Feedback"])
 
 if rad == "Introduction":
@@ -149,17 +149,17 @@ if rad == "Movie Recommender System":
     st.sidebar.info("A movie recommendation system is a fancy way to describe a process that tries to predict your preferred items based on your viewed content or people similar to you and many other ways. Here our movie recommender system takes a movie input from the user and then tries to find 5 most similar movie's title and corresponding poster based on content of the movie.")
 
 if rad == "Help?":
-    st.sidebar.info("Hi! I am Deepali :wave:")
-    st.sidebar.info("A B.Tech. Information Technology Student from Banasthali Vidyapith, Jaipur. Lemme help you!")
+    st.sidebar.info("Hi! I am Rahul :wave:")
+    st.sidebar.info("A B.Tech. Undergraduate Student from Indian Institute of Technology Ropar, Punjab. Lemme help you!")
     st.sidebar.info("Type or select a movie to search and click the recommend button and here you go with five most similar movies based on similarity in content.")
 
 if rad == "About Us":
-    st.sidebar.info("For more information contact deepalisingh141101@gmail.com or deepalis1401@gmail.com")
+    st.sidebar.info("For more information contact 2021chb1052@iitrpr.ac.in or rahulsaw2003@gmail.com")
 
 if rad == "Feedback":
         st.sidebar.info("Get In Touch With Me! :point_down:")
         contact_form = """
-        <form action="https://formsubmit.co/deepalisingh141101@gmail.com" method="POST">
+        <form action="https://formsubmit.co/2021chb1052@iitrpr.ac.in" method="POST">
             <input type="hidden" name="_captcha" value="false">
             <input type="text" name="name" placeholder="Your name" required>
             <input type="email" name="email" placeholder="Your email" required>
