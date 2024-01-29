@@ -31,12 +31,12 @@ Cosine similarity is a metric used to measure how similar the documents are irre
 ![image](https://user-images.githubusercontent.com/90978030/170785665-3662d48f-4573-4029-b73f-38fcc9dc842b.png)
 
 
-# IDE's used -
+## IDE's used -
 1. Jupyter Notebook
 2. PyCharm Community Edition 2022.1.1
 3. VSCode
 
-# Dependencies -
+## Dependencies -
 pandas
 
 numpy
@@ -57,10 +57,10 @@ pickle
 
 pip
 
-# How to get the API key?
+## How to get the API key?
 Create an account on https://www.themoviedb.org/, click on the API link from the left hand sidebar in your account settings and fill all the details to apply for API key. If you are asked for the website URL, just give "NA" if you don't have one. You will see the API key in your API sidebar once your request is approved.
 
-# How to run the project?
+## How to run the project?
 1. Clone or download this repository to your local machine.
 2. Run the movie-recommender-system.ipynb python file on your Jupyter Notebook by installing all the required libraries.
 3. Install all the libraries mentioned in the requirements.txt file with the command pip install -r requirements.txt in PyCharm. 
@@ -69,7 +69,7 @@ Create an account on https://www.themoviedb.org/, click on the API link from the
 6. Open your terminal/command prompt from your project directory and run the file web_app.py by executing the command streamlit run web_app.py.
 7. And Hurray! That's it. Your Recommendation Engine is ready!
 
-# Deployment Steps:
+## Deployment Steps:
 
 1. **Sign Up for Render:**
    - Create an account on [Render](https://render.com/).
@@ -102,8 +102,20 @@ Create an account on https://www.themoviedb.org/, click on the API link from the
 9. **Optional: Continuous Deployment:**
    - Enable continuous deployment for automatic updates.
 
-# Features -
+## Features -
 1. It saves time of user by just taking movie name as input and recommends five most similar movies to the user.
 2. It can in additional take feedback from the user about the modifications that can be done.
 3. It also has an introduction section for the user to learn.
 4. It can further be extended to rate the movies.
+
+## About the Author
+
+**Name:** Rahul Kumar Saw
+
+**College:** Indian Institute of Technology(IIT) Ropar
+
+**Department:** Chemical Engineering
+
+**Roll Number:** 2021CHB1052
+
+Feel free to reach out to me at 2021chb1052@iitrpr.ac.in for any questions, feedback, or collaboration opportunities related to this project.
