@@ -5,9 +5,8 @@ This type of recommendation engine works on the concept that if a user liked a p
 ![image](https://user-images.githubusercontent.com/90978030/170785934-3a3aabc1-125f-419c-adc3-358e861b7eec.png)
 
 
-Check out the final project here : https://deepali-movies-recommender.herokuapp.com/ 
+Check out the final project here : https://movie-recommendation-system-g7h0.onrender.com/ 
 
-<!-- Check out the project demo here : https://drive.google.com/file/d/17IthFW4oZfsuPSB8KX-xShwDkBNYy3U1/view -->
 
 Checkout the project presentation here : https://docs.google.com/presentation/d/1hVO-9NQh62d7M0mWy-INat8bSD_X6SQxlKJmMulWV5Y/edit?usp=sharing
 
@@ -35,6 +34,7 @@ Cosine similarity is a metric used to measure how similar the documents are irre
 # IDE's used -
 1. Jupyter Notebook
 2. PyCharm Community Edition 2022.1.1
+3. VSCode
 
 # Dependencies -
 pandas
